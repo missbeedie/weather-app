@@ -1,6 +1,7 @@
 body {
-  background-color: rgb(247, 243, 243);
-  background-image:url(sky-background-video-conferencing_23-2148639325.jpeg);
+  background-color: rgb(247, 243, 243, 0.7);
+  background-image:url("https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg?w=1480&t=st=1699005039~exp=1699005639~hmac=6b9d748a8a1968c4e7c94b4bd120e3f64851c67736fc6b7f9915bbc9ad9baa4b");
+  back
   display: block;
   font-family:Arial, Helvetica, sans-serif;
 
@@ -25,7 +26,7 @@ h1 {
 
 
 .header-form {
-  background-color: rgb(210, 229, 255, 0.5);
+  background-color: rgb(255, 255, 255, 0.7);
   box-shadow: 2px 2px 2px rgb(154, 154, 154);
   margin: 0 auto;
   margin-bottom: 30px;
@@ -68,7 +69,7 @@ h1 {
 }
 
 .city-weather {
-  background-color: rgb(210, 229, 255, 0.5);;
+  background-color: rgb(255, 255, 255, 0.7);;
   box-shadow: 2px 2px 2px rgb(154, 154, 154);
   margin: 0 auto;
   margin-bottom: 30px;
@@ -88,7 +89,7 @@ p {
 }
 
 .weekly-forecast {
-  background-color: rgb(210, 229, 255, 0.5);
+  background-color: rgb(255, 255, 255, 0.7);
   box-shadow: 2px 2px 2px rgb(154, 154, 154);
   margin: 0 auto;
   padding: 3px 20px;
