@@ -1,6 +1,8 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 243, 243);
+  background-image:url(sky-background-video-conferencing_23-2148639325.jpeg);
   display: block;
+  font-family:Arial, Helvetica, sans-serif;
 
 }
 
@@ -24,6 +26,7 @@ h1 {
 
 .header-form {
   background-color: rgb(210, 229, 255, 0.5);
+  box-shadow: 2px 2px 2px rgb(154, 154, 154);
   margin: 0 auto;
   margin-bottom: 30px;
   padding: 50px 20px;
@@ -41,6 +44,7 @@ h1 {
   margin-right: 20px;
   background-color: rgb(255, 255, 255);
   border-color: rgb(40, 40, 40);
+  
 }
 
 
@@ -57,7 +61,7 @@ h1 {
 
 }
 
-.form-search-button :hover {
+:hover .form-search-button {
   background-color: rgb(149, 199, 244);
 
 
@@ -65,6 +69,7 @@ h1 {
 
 .city-weather {
   background-color: rgb(210, 229, 255, 0.5);;
+  box-shadow: 2px 2px 2px rgb(154, 154, 154);
   margin: 0 auto;
   margin-bottom: 30px;
   padding: 3px 20px;
@@ -72,8 +77,19 @@ h1 {
   max-width: 500px;
 }
 
-.week-forecast {
-  background-color: rgb(210, 229, 255, 0.5);;
+p {
+  text-align: center;
+  font-size: large;
+}
+
+.current-temp {
+  text-align: center;
+  font-size: 100px;
+}
+
+.weekly-forecast {
+  background-color: rgb(210, 229, 255, 0.5);
+  box-shadow: 2px 2px 2px rgb(154, 154, 154);
   margin: 0 auto;
   padding: 3px 20px;
   border-radius: 20px;
@@ -81,10 +97,7 @@ h1 {
 
 }
 
-footer {
+.p-footer {
   text-align: center;
-  background-color: rgb(210, 229, 255, 0.5);;
-  margin: 0 auto;
-  max-width: 350px;
-  border-radius: 10px;
+  font-size: 15px;
 }
