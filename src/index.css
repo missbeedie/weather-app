@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(255, 255, 255);
+  display: block;
+
+}
+
+header {
+  display: block;
+  text-align: center;
+  
+}
+
+h1 {
+  text-align: center;
+  color: rgb(38, 38, 38);
+}
+
+.app-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+.header-form {
+  background-color: rgb(210, 229, 255, 0.5);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 50px 20px;
+  border-radius: 20px;
+  border: rgb(149, 199, 244);
+  max-width: 500px;
+
+
+}
+
+
+.form-search-bar {
+  padding: 20px 40px; 
+  border-radius: 10px;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(40, 40, 40);
+}
+
+
+
+
+
+.form-search-button {
+  padding: 10px 20px; 
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(40, 40, 40);
+
+
+}
+
+.form-search-button :hover {
+  background-color: rgb(149, 199, 244);
+
+
+}
+
+.city-weather {
+  background-color: rgb(210, 229, 255, 0.5);;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 3px 20px;
+  border-radius: 20px;
+  max-width: 500px;
+}
+
+.week-forecast {
+  background-color: rgb(210, 229, 255, 0.5);;
+  margin: 0 auto;
+  padding: 3px 20px;
+  border-radius: 20px;
+  max-width: 500px;
+
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(210, 229, 255, 0.5);;
+  margin: 0 auto;
+  max-width: 350px;
+  border-radius: 10px;
+}
