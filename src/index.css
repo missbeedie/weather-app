@@ -107,7 +107,7 @@ p {
 
 /*WEEKLY FORECAST BLOCK*/
 
-.weekly-forecast {
+.weekly-forecast-all {
   background-color: rgb(255, 255, 255, 0.7);
   box-shadow: 2px 2px 2px rgb(154, 154, 154);
   margin: 0 auto;
@@ -115,6 +115,14 @@ p {
   border-radius: 20px;
   max-width: 500px;
 
+}
+
+.weekly-forecast {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  line-height: 2;
+  margin-bottom: 20px;
 }
 
 
