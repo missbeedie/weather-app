@@ -1,7 +1,6 @@
 body {
   background-color: rgb(247, 243, 243, 0.7);
-  background-image:url("https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg?w=1480&t=st=1699005039~exp=1699005639~hmac=6b9d748a8a1968c4e7c94b4bd120e3f64851c67736fc6b7f9915bbc9ad9baa4b");
-  back
+ background-image:url("https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg?w=1480&t=st=1699005039~exp=1699005639~hmac=6b9d748a8a1968c4e7c94b4bd120e3f64851c67736fc6b7f9915bbc9ad9baa4b");
   display: block;
   font-family:Arial, Helvetica, sans-serif;
 
@@ -22,8 +21,10 @@ h1 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 20px;
+  font-size: 40px;
 }
 
+/*SEARCH BLOCK*/
 
 .header-form {
   background-color: rgb(255, 255, 255, 0.7);
@@ -43,30 +44,38 @@ h1 {
   padding: 20px 40px; 
   border-radius: 10px;
   margin-right: 20px;
-  background-color: rgb(255, 255, 255);
-  border-color: rgb(40, 40, 40);
+  background-color: rgb(255, 255, 255, 0.3);
+  border-color: rgb(170, 170, 170);
+  font-size: 15px;
   
 }
 
+.form-search-bar:hover {
+  background-color: rgb(255, 255, 255, 0.3);
+  transition: all 200ms ease-in-out;
+  font-size: 20px;
 
-
-
+}
 
 .form-search-button {
   padding: 10px 20px; 
   border-radius: 10px;
   margin: 0 auto;
-  background-color: rgb(255, 255, 255);
-  border-color: rgb(40, 40, 40);
+  background-color: rgb(255, 255, 255, 0.3);
+  border-color: rgb(170, 170, 170);
 
 
 }
 
-:hover .form-search-button {
-  background-color: rgb(149, 199, 244);
-
+.form-search-button:hover {
+  background-color: rgb(255, 255, 255, 0.3);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  font-size: medium;
 
 }
+
+/*CURRENT WEATHER BLOCK*/
 
 .city-weather {
   background-color: rgb(255, 255, 255, 0.7);;
@@ -83,10 +92,20 @@ p {
   font-size: large;
 }
 
+.current-city {
+  text-align: center;
+  font-size: 50px;
+  line-height: 0.5;
+}
+
+
 .current-temp {
   text-align: center;
   font-size: 100px;
 }
+
+
+/*WEEKLY FORECAST BLOCK*/
 
 .weekly-forecast {
   background-color: rgb(255, 255, 255, 0.7);
@@ -98,7 +117,11 @@ p {
 
 }
 
+
+/*FOOTER*/
+
 .p-footer {
   text-align: center;
   font-size: 15px;
+  color: rgba(29, 29, 29);
 }
