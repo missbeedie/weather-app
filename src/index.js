@@ -1,6 +1,9 @@
 function updateWeather(response){
   let temperatureElement = document.querySelector("#current-temp-value");
+  let currentCityElement = document.querySelector("#current-city");
+  currentCityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(response.data.temperature.current);
+
 }
 
 
@@ -16,8 +19,7 @@ function searchCity(city) {
 function performSearch(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#form-search-bar");
-  let currentCityElement = document.querySelector("#current-city");
-  currentCityElement.innerHTML = searchInput.value;
+  
   searchCity(searchInput.value);
 }
 
