@@ -57,6 +57,7 @@ function performSearch(event) {
 let searchFormElement = document.querySelector("form");
 searchFormElement.addEventListener("submit", performSearch);
 
+searchCity("London");
 
 
 

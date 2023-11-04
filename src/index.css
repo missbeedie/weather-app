@@ -77,6 +77,7 @@ h1 {
 
 /*CURRENT WEATHER BLOCK*/
 
+
 .city-weather {
   background-color: rgb(255, 255, 255, 0.2);
   box-shadow: 2px 2px 2px rgb(154, 154, 154);
@@ -130,7 +131,10 @@ p {
   line-height: 1.5;
 }
 
+
 /*WEEKLY FORECAST BLOCK*/
+
+/*
 
 .weekly-forecast-all {
   background-color: rgb(255, 255, 255, 0.2);
@@ -150,6 +154,7 @@ p {
   margin-bottom: 20px;
 }
 
+*/
 
 /*FOOTER*/
 
