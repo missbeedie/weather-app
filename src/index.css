@@ -120,6 +120,11 @@ p {
   margin-top: 10px;
 }
 
+.date, .time, .description, .humidity, .wind{
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+}
 
 /*WEEKLY FORECAST BLOCK*/
 
