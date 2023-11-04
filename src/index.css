@@ -102,6 +102,20 @@ p {
 .current-temp {
   text-align: center;
   font-size: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.current-temp-icon {
+  font-size: 70px;
+}
+
+.current-temp-value {
+  font-size: 75px;
+}
+
+.current-temp-unit {
+  font-size: 35px;
 }
 
 
