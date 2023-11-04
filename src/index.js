@@ -1,10 +1,23 @@
 function updateWeather(response){
   let temperatureElement = document.querySelector("#current-temp-value");
   let currentCityElement = document.querySelector("#current-city");
+  let descriptionElement = document.querySelector("#description");
+  let humidityElement = document.querySelector("#humidity");
+  let windElement = document.querySelector("#wind");
+  let timeElement = document.querySelector("#time");
+  let date = new Date(response.data.time * 1000);
+
+
   currentCityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(response.data.temperature.current);
+  descriptionElement.innerHTML = response.data.condition.description;
+  humidityElement.innerHTML = `humidity: ${response.data.temperature.humidity}%`;
+  windElement.innerHTML = `wind speed: ${Math.round(response.data.wind.speed)}km/h`;
+  timeElement.innerHTML = `${date.getHours()}:${date.getMinutes()}`;
 
 }
+
+
 
 
 function searchCity(city) {
@@ -25,6 +38,8 @@ function performSearch(event) {
 
 let searchFormElement = document.querySelector("form");
 searchFormElement.addEventListener("submit", performSearch);
+
+searchCity("London");
 
 
 
