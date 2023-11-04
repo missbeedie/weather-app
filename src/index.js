@@ -13,7 +13,7 @@ function updateWeather(response) {
   humidityElement.innerHTML = `humidity: ${response.data.temperature.humidity}%`;
   windElement.innerHTML = `wind speed: ${Math.round(
     response.data.wind.speed)}km/h`;
-  timeElement.innerHTML = formatDate();
+  timeElement.innerHTML = formatDate(date);
 }
 
 function formatDate(date) {
@@ -22,7 +22,11 @@ function formatDate(date) {
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   let day = days[date.getDay()];
 
-  return `${day} ${hours}:${minutes}`;
+  if (minutes < 10) {
+    minutes = `0${minutes};`
+  }
+
+  return `${day}, ${hours}:${minutes}`;
 
 
 }
