@@ -6,6 +6,17 @@ function updateWeather(response){
 
 }
 
+function formatDate(date) {
+  let hours = date.getHours();
+  let minutes = date.getMinutes();
+  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  let day = days[date.getDay()];
+
+  return `${day} ${hours}:${minutes}`;
+
+
+}
+
 
 function searchCity(city) {
   let apiKey = "03fde306dbeefffd37840714ft0decoa";
