@@ -145,16 +145,29 @@ p {
   max-width: 500px;
 
 }
+*/
 
-.weekly-forecast {
+.weather-forecast {
   display: flex;
   justify-content: space-evenly;
   padding: 15px;
   line-height: 2;
   margin-bottom: 20px;
+  text-align: center;
 }
 
-*/
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.weather-forecast-temperature-min{
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
 
 /*FOOTER*/
 
