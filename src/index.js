@@ -54,10 +54,35 @@ function performSearch(event) {
   searchCity(searchInput.value);
 }
 
+
+
+//forecast
+
+function displayForecast(){
+let forecastElement = document.querySelector('#forecast')
+
+let days = ['Tues', 'Wed', 'Thu', 'Fri', 'Sat']
+let forecastHtml = ""
+
+days.forEach(function(day){
+forecastHtml = forecastHtml + ` 
+        <div class="weather-forecast-day">
+          <div class="weather-forecast-date">${day}</div>
+          <img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700457-icon-43-wind-1024.png" alt="" width="60px"/>
+          <div class="weather-forecast-temperatures">
+            <span class="weather-forecast-temperature-max">18°C</span>
+            <span class="weather-forecast-temperature-min">12°C</span>
+          </div>
+        </div>`;
+})
+
+forecastElement.innerHTML = forecastHtml
+}
+
+displayForecast()
+
+
 let searchFormElement = document.querySelector("form");
 searchFormElement.addEventListener("submit", performSearch);
 
 searchCity("London");
-
-
-
